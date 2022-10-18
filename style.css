@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+}
+
+.table {
+	margin: 5px;
+	width: 100%;
+	margin-bottom: 20px;
+	border-collapse: collapse; 
+}
+
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+
+.table td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+}
+
+.table tr td:first-child,
+.table tr th:first-child {
+	border-left: none;
+}
+
+.table tr td:last-child,
+.table tr th:last-child {
+	border-right: none;
+}
+
+.best {
+  background-color: rgba(0, 255, 34, 0.5);
+}
+
+.modal {
+	box-sizing: border-box;
+	padding: 5px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.modal__text {
+	margin: 5px;
+}
+
+.error-message {
+	padding: 10px 15px;
+
+	text-align: center;
+	background-color: red;
+	color: white;
+}
